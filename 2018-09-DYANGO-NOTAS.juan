@@ -1,0 +1,47 @@
+
+
+
+
+python3.6 -m pip -V
+/usr/lib/python3/dist-packages
+
+-----------
+
+INSTALAR PIP3 http://www.kacharreando.com/ubuntu/gestor-pip/
+
+Si queremos instalar pip3 para python3, tendremos que utilizar los siguientes comandos:
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+
+-------------
+
+ pip3 install pipenv --user
+
+---------
+
+ACTIVAR EL ENTORNO VIRTUAL
+
+pipenv shell
+
+
+INSTALAR DIANGO  
+
+pip3 install Django==2.1.1 --user
+
+
+
+
+CREAR UN NUEVO PROYECTO
+
+$  django-admin startproject  nuevo .
+
+
+python manage.py runserver
+
+
+
+
+
+
+
+
