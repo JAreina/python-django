@@ -15,6 +15,9 @@ sudo python3 get-pip.py
 
 -------------
 
+INSTALAR ENTORNO VIRTUAL
+
+
  pip3 install pipenv --user
 
 ---------
@@ -36,7 +39,64 @@ CREAR UN NUEVO PROYECTO
 $  django-admin startproject  nuevo .
 
 
-python manage.py runserver
+   python manage.py runserver
+
+
+---------------------------------------------
+2 ---- hello world
+--------------------------------------------
+
+CREAR CARPETA
+
+INSTALAR DJANGO : pipenv install django==2.1.1
+
+pipenv shell
+
+CREAR PROYECTO : django-admin startproject hola_mundo .
+
+
+    settings.py : controlla los ajustes del proyecto
+    urls.py : dice a django qué paginas se enviaran como respuesta
+     wgsi.py: ayuda a django a servir paginas web
+    manage.py : ejecuta varios comandos de django , como un servidor local o crear una nueva app.
+
+ EJECUTAR LA APP : python manage.py runserver
+
+
+CONTROL + C    parar la app
+
+
+---------------------------
+COMANDO startapp de django
+
+_____________________________
+
+python manage.py startapp pages
+
+
+
+admin.py is a configuration file for the built-in Django Admin app
+
+apps.py is a configuration file for the app itself
+
+migrations/ keeps track of any changes to our models.py file so our
+database and models.py stay in sync
+
+models.py is where we define our database models, which Django
+automatically translates into database tables
+
+tests.py is for our app-specific tests
+
+views.py is where we handle the request/response logic for our web app
+
+
+
+
+
+
+
+
+
 
 
 
