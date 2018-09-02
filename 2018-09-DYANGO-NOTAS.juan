@@ -159,7 +159,19 @@ ejecutar   test.py
 
 
 
+_________________________
+HEROKU 
+_______________________
 
+
+Additional Files We need to make the following four
+changes to our Pages project so it’s ready to deploy online
+with Heroku:
+
+update Pipfile.lock
+make a new Procfile file
+install gunicorn as our web server
+make aone-line change to settings.py file
 
 
 
