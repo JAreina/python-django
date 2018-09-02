@@ -174,10 +174,21 @@ install gunicorn as our web server
 make aone-line change to settings.py file
 
 
+___________________________
+
+4_py_sqlite_posts
+
+_______________________
+
+CREAR NUEVO PROYECTO  
 
 
+pipenv install django==2.1.1
+pipenv shell
+django-admin startproject posts_proyecto .  ( NO OLVIDAR EL PUNTO)
+django-admin startapp posts_app
+
+python manage.py runserver
 
 
-
-
-
+----------
