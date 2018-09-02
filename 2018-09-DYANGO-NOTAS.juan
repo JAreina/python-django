@@ -190,5 +190,5 @@ django-admin startapp posts_app
 
 python manage.py runserver
 
-
+actualizar settings.py para añadir la posts_app
 ----------
