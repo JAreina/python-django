@@ -151,6 +151,11 @@ en la seccion TEMPLATES
  templatess/urls.py  
 
 
+TEST  --------------------
+___________________________
+
+ejecutar   test.py
+  $  python manage.py test
 
 
 
