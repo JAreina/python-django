@@ -256,3 +256,11 @@ actualizar TEMPLATES  'DIRS' : ['plantillas] EN settings.py
 ACTUALIZAR URLS
 
 posts_proyecto/urls.py
+
+
+TEST  
+
+
+python manage.py test
+
+
