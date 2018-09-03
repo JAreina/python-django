@@ -237,4 +237,22 @@ VIEWS - TEMPLATES - URLS
 _________________________
 
 
+VIEWS 
 
+ver contenido de la base de datos
+
+posts_app/views.py 
+
+usar ListView
+
+
+
+crear las plantillas 
+
+plantillas/home.html
+
+actualizar TEMPLATES  'DIRS' : ['plantillas] EN settings.py
+
+ACTUALIZAR URLS
+
+posts_proyecto/urls.py
