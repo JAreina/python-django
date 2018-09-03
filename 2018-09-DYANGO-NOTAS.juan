@@ -351,3 +351,6 @@ actualizar blog_project/settings.py
 
          'DIRS' = ['plantillas']
 
+
+   ARCHIVOS ESTATICOS ------------------------
+
