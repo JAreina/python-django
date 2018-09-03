@@ -278,3 +278,56 @@ django-admin startproject blog_project . &&
 python manage.py startapp blog_app &&
 python manage.py migrate &&
 python manage.py runserver
+
+
+actualizar settings.py con la app: blog_app
+INSTALLED_APPS
+
+
+-----------
+
+CREAR MODELO 
+
+
+blog_app/models.py
+
+
+actualizar base datos
+
+          pipenv shell
+          python manage.py makemigrations blog_app
+          python manage.py migrate blog_app
+
+
+crear superusuario ----------------
+
+
+python manage.py createsuperuser
+
+
+actualizar blog_app/admin.py  
+
+
+
+correr servidor _____________-
+
+python manage.py runserver
+
+
+http://127.0.0.1:8000/admin
+
+
+añadir post en las pantallas de admin
+
+
+
+URLS ----
+crear en blog_app   archivo urls.py
+
+
+
+VIEWS ---
+
+
+TEMPLATES---
+
