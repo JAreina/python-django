@@ -192,3 +192,49 @@ python manage.py runserver
 
 actualizar settings.py para añadir la posts_app
 ----------
+
+
+ejecutar python manage.py migrate ( crea base datos)
+
+
+CREAR MODELOS
+
+
+posts_app/models.py
+
+
+ACTIVAR MODELOS
+
+$ python manage.py makemigrations posts_app
+$ python manage.py migrate posts_app
+
+
+
+
+USAR DJANGO Admin
+
+
+crear superusuario:
+
+   $  python manage.py createsuperuser
+
+
+   restart server
+      python manage.py runserver
+
+ http://127.0.0.1:8000/admin
+
+
+
+ MOSTRAR POSTS EN LA PAGINA DE Admin
+
+editar 
+ posts_apap/admin.py
+
+
+       
+VIEWS - TEMPLATES - URLS 
+_________________________
+
+
+
