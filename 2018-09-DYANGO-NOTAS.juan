@@ -325,9 +325,29 @@ URLS ----
 crear en blog_app   archivo urls.py
 
 
+ actualizar blog_project/urls.py
+
+
 
 VIEWS ---
 
 
+blog_app/views.py
+
+
+
+
 TEMPLATES---
+
+
+/plantillas
+
+     base.html
+     home.html
+
+actualizar blog_project/settings.py
+
+    TEMPLATES = 
+
+         'DIRS' = ['plantillas']
 
