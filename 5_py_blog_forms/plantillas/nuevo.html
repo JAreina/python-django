@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>POST nuevo</h1>
+<form action="" method="post">{% csrf_token %}
+    <!-- CSRF TOKEN PROTEGE CONTRA CROSS SITE SCRIPTIG-->
+    {{ form.as_p }}
+    <input type="submit" value="GUARDAR" />
+</form>
+{% endblock %}

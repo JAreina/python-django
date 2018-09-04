@@ -1,0 +1,32 @@
+<!-- cargar archivos css de la carpeta static-->
+{% load static %}
+<html>
+
+<head>
+    <title>BLOG JAreina</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="styl\
+esheet">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+
+<body>
+ <div class="container">
+
+
+ </div>
+    <header>
+
+        <div class="nav-left">
+                <h1><a href="/">BLOG JAreina</a></h1>
+        </div>
+       <div class="nav-right">
+            <a href="{% url 'nuevo' %}">NUEVO</a>
+       </div>
+    </header>
+    <div class="container">
+        {% block content %}
+        {% endblock content %}
+    </div>
+</body>
+
+</html>
