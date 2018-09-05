@@ -5,4 +5,5 @@
     <h2>{{ object.titulo }}</h2>
     <p>{{ post.texto }}</p>
 </div>
+<button><a href="{% url 'postedit' post.pk %}">EDITAR</a></button>
 {% endblock content %}
