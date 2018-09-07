@@ -361,3 +361,9 @@ actualizar blog_project/settings.py
    actualizar settings.py
    
 
+
+
+USER AUTENTICACION LOGIN
+
+
+http://127.0.0.1:8000/accounts/login/
