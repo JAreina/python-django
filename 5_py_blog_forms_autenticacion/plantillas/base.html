@@ -28,9 +28,11 @@ esheet">
 
     {% if user.is_authenticated %}
     <p>USUARIO:  {{ user.username }}</p>
+    <p><a href="{% url 'logout' %}">logout</a></p>
     {% else %}
-    <p>You are not logged in.</p>
+    <p>ENTRAR</p>
     <a href="{% url 'login' %}">login</a>
+    
     {% endif %}
     <div class="container">
         {% block content %}
